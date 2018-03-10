@@ -11,7 +11,7 @@ ___
 [![Build Status](https://travis-ci.org/gdi2290/angular-starter.svg?branch=master)](https://travis-ci.org/gdi2290/angular-starter)
 [![GitHub version](https://badge.fury.io/gh/gdi2290%2Fangular-starter.svg)](https://badge.fury.io/gh/gdi2290%2Fangular-starter)
 [![Dependency Status](https://david-dm.org/gdi2290/angular-starter.svg)](https://david-dm.org/gdi2290/angular-starter)
-[![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/angularclass/angular-2-webpack-starter)
+[![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/gdi2290/angular-starter)
 
 <p align="center">
   <a href="https://onespeed.io" target="_blank">
@@ -19,18 +19,18 @@ ___
   </a>
 </p>
 
-# Angular Webpack Starter [![Join the chat at https://gitter.im/gdi2290/angular-starter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gdi2290/angular-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Angular Webpack Starter [![Join the chat at https://gitter.im/angularclass/angular2-webpack-starter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/angularclass/angular2-webpack-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 > An Angular starter kit featuring [Angular 5](https://angular.io), [Ahead of Time Compile](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html), [Router](https://angular.io/docs/ts/latest/guide/router.html), [Forms](https://angular.io/docs/ts/latest/guide/forms.html),
 [Http](https://angular.io/docs/ts/latest/guide/server-communication.html),
 [Services](https://gist.github.com/gdi2290/634101fec1671ee12b3e#_follow_@AngularClass_on_twitter),
-[Tests](https://angular.io/docs/ts/latest/guide/testing.html), [E2E](https://angular.github.io/protractor/#/faq#what-s-the-difference-between-karma-and-protractor-when-do-i-use-which-)), [Karma](https://karma-runner.github.io/), [Protractor](https://angular.github.io/protractor/), [Jasmine](https://github.com/jasmine/jasmine), [Istanbul](https://github.com/gotwarlost/istanbul), [TypeScript](http://www.typescriptlang.org/), [@types](https://www.npmjs.com/~types), [TsLint](http://palantir.github.io/tslint/), [Codelyzer](https://github.com/mgechev/codelyzer), [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html), and [Webpack](http://webpack.github.io/) by [AngularClass](https://angularclass.com).
+[Tests](https://angular.io/docs/ts/latest/guide/testing.html), [E2E](https://angular.github.io/protractor/#/faq#what-s-the-difference-between-karma-and-protractor-when-do-i-use-which-)), [Karma](https://karma-runner.github.io/), [Protractor](https://angular.github.io/protractor/), [Jasmine](https://github.com/jasmine/jasmine), [Istanbul](https://github.com/gotwarlost/istanbul), [TypeScript](http://www.typescriptlang.org/), [@types](https://www.npmjs.com/~types), [TsLint](http://palantir.github.io/tslint/), [Codelyzer](https://github.com/mgechev/codelyzer), [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html), and [Webpack](http://webpack.github.io/) by [Tipe](https://tipe.io).
 
-> If you're looking for Angular 1.x please use [NG6-starter](https://github.com/angularclass/NG6-starter)
+> If you're looking for Angular 1.x please use [NG6-starter](https://github.com/gdi2290/NG6-starter)
 > If you're looking to learn about Webpack and ES6 Build Tools check out [ES6-build-tools](https://github.com/AngularClass/ES6-build-tools)
 > If you're looking to learn TypeScript see [TypeStrong/learn-typescript](https://github.com/TypeStrong/learn-typescript)
-> If you're looking for something easier to get started with then see the angular-seed that I also maintain [AngularClass/angular-seed](https://github.com/AngularClass/angular-seed)
+> If you're looking for something easier to get started with then see the angular-seed that I also maintain [gdi2290/angular-seed](https://github.com/gdi2290/angular-seed)
 
 This seed repo serves as an Angular starter for anyone looking to get up and running with Angular and TypeScript fast. Using a [Webpack 3](https://webpack.js.org) for building our files and assisting with boilerplate. We're also using Protractor for our end-to-end story and Karma for our unit tests.
 * Best practices in file and application organization for Angular.
@@ -42,10 +42,9 @@ This seed repo serves as an Angular starter for anyone looking to get up and run
 * [Webpack DLLs](https://robertknight.github.io/posts/webpack-dll-plugins/) dramatically speed your development builds.
 * Testing Angular code with Jasmine and Karma.
 * Coverage with Istanbul and Karma
-* End-to-end Angular code using Protractor.
+* End-to-end Angular app testing using Protractor.
 * Type manager with @types
-* Hot Module Replacement with Webpack and [@angularclass/hmr](https://github.com/angularclass/angular-hmr) and [@angularclass/hmr-loader](https://github.com/angularclass/angular-hmr-loader)
-* Angular 4 support via changing package.json and any future Angular versions
+* Hot Module Replacement with Webpack and [@gdi2290/hmr](https://github.com/gdi2290/angular-hmr) and [@gdi2290/hmr-loader](https://github.com/gdi2290/angular-hmr-loader)
 
 ### Quick start
 **Make sure you have Node version >= 6.0 and NPM >= 3**
@@ -54,13 +53,10 @@ This seed repo serves as an Angular starter for anyone looking to get up and run
 ```bash
 # clone our repo
 # --depth 1 removes all but one .git commit history
-git clone --depth 1 https://github.com/AngularClass/angular-starter.git
+git clone --depth 1 https://github.com/gdi2290/angular-starter.git
 
 # change directory to our repo
 cd angular-starter
-
-# WINDOWS only. In terminal as administrator
-npm install -g node-pre-gyp
 
 # install the repo with npm
 npm install
@@ -149,6 +145,7 @@ Once you have those, you should install these globals with `npm install --global
 * `karma` (`npm install --global karma-cli`)
 * `protractor` (`npm install --global protractor`)
 * `typescript` (`npm install --global typescript`)
+* `tslint` (`npm install --global tslint@4.5.1`)
 
 ## Installing
 * `fork` this repo
@@ -238,13 +235,15 @@ The following are some things that will make AoT compile fail.
 - Don’t use functions in your providers, routes or declarations, export a function and then reference that function name
 - @Inputs, @Outputs, View or Content Child(ren), Hostbindings, and any field you use from the template or annotate for Angular should be public
 
+For more detailed guide on AoT's Do's and Don'ts refer to https://github.com/rangle/angular-2-aot-sandbox
+
 # External Stylesheets
 Any stylesheets (Sass or CSS) placed in the `src/styles` directory and imported into your project will automatically be compiled into an external `.css` and embedded in your production builds.
 
 For example to use Bootstrap as an external stylesheet:
 1) Create a `styles.scss` file (name doesn't matter) in the `src/styles` directory.
 2) `npm install` the version of Boostrap you want.
-3) In `styles.scss` add `@import 'bootstrap/scss/bootstrap.scss';`
+3) In `styles.scss` add `@import '~bootstrap/scss/bootstrap.scss';`
 4) In `src/app/app.module.ts` add underneath the other import statements: `import '../styles/styles.scss';`
 
 # Contributing
@@ -254,7 +253,7 @@ You can include more examples as components but they must introduce a new concep
 > To take full advantage of TypeScript with autocomplete you would have to install it globally and use an editor with the correct TypeScript plugins.
 
 ## Use latest TypeScript compiler
-TypeScript 2.1.x includes everything you need. Make sure to upgrade, even if you installed TypeScript previously.
+TypeScript 2.7.x includes everything you need. Make sure to upgrade, even if you installed TypeScript previously.
 
 ```
 npm install --global typescript
@@ -323,7 +322,7 @@ import * as _ from 'lodash';
 
 # Frequently asked questions
 * What's the current browser support for Angular?
-  * Please view the updated list of [browser support for Angular 2](https://github.com/angularclass/awesome-angular2#current-browser-support-for-angular-2)
+  * Please view the updated list of [browser support for Angular](https://github.com/gdi2290/awesome-angular#current-browser-support-for-angular)
 * Why is my service, aka provider, is not injecting parameter correctly?
   * Please use `@Injectable()` for your service for typescript to correctly attach the metadata (this is a TypeScript problem)
 * Where do I write my tests?
@@ -331,19 +330,19 @@ import * as _ from 'lodash';
 * How do I start the app when I get `EACCES` and `EADDRINUSE` errors?
   * The `EADDRINUSE` error means the port `3000` is currently being used and `EACCES` is lack of permission for webpack to build files to `./dist/`
 * How to use `sass` for css?
- *  * `loaders: ['raw-loader','sass-loader']` and `@Component({ styleUrls: ['./filename.scss'] })` see Wiki page [How to include SCSS in components](https://github.com/AngularClass/angular-starter/wiki/How-to-include-SCSS-in-components), or issue [#136](https://github.com/AngularClass/angular-starter/issues/136) for more information.
+ *  * `loaders: ['raw-loader','sass-loader']` and `@Component({ styleUrls: ['./filename.scss'] })` see Wiki page [How to include SCSS in components](https://github.com/gdi2290/angular-starter/wiki/How-to-include-SCSS-in-components), or issue [#136](https://github.com/gdi2290/angular-starter/issues/136) for more information.
 * How do I test a Service?  
-  * See issue [#130](https://github.com/AngularClass/angular-starter/issues/130#issuecomment-158872648)
+  * See issue [#130](https://github.com/gdi2290/angular-starter/issues/130#issuecomment-158872648)
 * How do I add `vscode-chrome-debug` support?
-  * The VS Code chrome debug extension support can be done via `launch.json` see issue [#144](https://github.com/AngularClass/angular-starter/issues/144#issuecomment-164063790)
+  * The VS Code chrome debug extension support can be done via `launch.json` see issue [#144](https://github.com/gdi2290/angular-starter/issues/144#issuecomment-164063790)
 * How do I make the repo work in a virtual machine?
-  * You need to use `0.0.0.0` so revert these changes [#205](https://github.com/AngularClass/angular-starter/pull/205/files)
+  * You need to use `0.0.0.0` so revert these changes [#205](https://github.com/gdi2290/angular-starter/pull/205/files)
 * What are the naming conventions for Angular?
-  * please see issue [#185](https://github.com/AngularClass/angular-starter/issues/185) and PR [196](https://github.com/AngularClass/angular-starter/pull/196)
+  * please see issue [#185](https://github.com/gdi2290/angular-starter/issues/185) and PR [196](https://github.com/gdi2290/angular-starter/pull/196)
 * How do I include bootstrap or jQuery?
-  * please see issue [#215](https://github.com/AngularClass/angular-starter/issues/215) and [#214](https://github.com/AngularClass/angular-starter/issues/214#event-511768416)
+  * please see issue [#215](https://github.com/gdi2290/angular-starter/issues/215) and [#214](https://github.com/gdi2290/angular-starter/issues/214#event-511768416)
 * How do I async load a component?
-  * see wiki [How-do-I-async-load-a-component-with-AsyncRoute](https://github.com/AngularClass/angular-starter/wiki/How-do-I-async-load-a-component-with-AsyncRoute)
+  * see wiki [How-do-I-async-load-a-component-with-AsyncRoute](https://github.com/gdi2290/angular-starter/wiki/How-do-I-async-load-a-component-with-AsyncRoute)
 * Error: Cannot find module 'tapable'
   * Remove `node_modules/` and run `npm cache clean` then `npm install`
 * How do I turn on Hot Module Replacement
@@ -355,17 +354,17 @@ import * as _ from 'lodash';
 * If you're in China
   * check out https://github.com/cnpm/cnpm
 * node-pre-gyp ERR in npm install (Windows)
-  * install Python x86 version between 2.5 and 3.0 on windows see issue [#626](https://github.com/AngularClass/angular-starter/issues/626)
+  * often happens when you're behind proxy and proxy wasn't configured in the npm as it tries to download binary package from the github and if it fails to do so, it will try to compile node-sass from the source codes
+  * install Python x86 version 2.x and on windows see issue [#626](https://github.com/gdi2290/angular-starter/issues/626)
 * `Error:Error: Parse tsconfig error [{"messageText":"Unknown compiler option 'lib'.","category":1,"code":5023},{"messageText":"Unknown compiler option 'strictNullChecks'.","category":1,"code":5023},{"messageText":"Unknown compiler option 'baseUrl'.","category":1,"code":5023},{"messageText":"Unknown compiler option 'paths'.","category":1,"code":5023},{"messageText":"Unknown compiler option 'types'.","category":1,"code":5023}]`
   * remove `node_modules/typescript` and run `npm install typescript@beta`. This repo now uses ts 2.0
 * "There are multiple modules with names that only differ in casing"
-  * change `c:\[path to angular-starter]` to `C:\[path to angular-starter]` see [926#issuecomment-245223547](https://github.com/AngularClass/angular-starter/issues/926#issuecomment-245223547)
+  * change `c:\[path to angular-starter]` to `C:\[path to angular-starter]` see [926#issuecomment-245223547](https://github.com/gdi2290/angular-starter/issues/926#issuecomment-245223547)
 
 # Support, Questions, or Feedback
 > Contact us anytime for anything about this repo or Angular
 
-* [Chat: AngularClass.slack](http://angularclass.com/member-join/)
-* [Twitter: @AngularClass](https://twitter.com/AngularClass)
+* [Twitter: @TipeIO](https://twitter.com/TipeIO)
 * [Gitter: AngularClass/angular2-webpack-starter](https://gitter.im/angularclass/angular2-webpack-starter)
 
 # Deployment
@@ -393,7 +392,7 @@ sudo apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-xenial ma
 sudo apt-get update
 apt-cache policy docker-engine
 sudo apt-get install -y docker-engine
-sudo systemctl status docker  # test:  shoud be ‘active’
+sudo systemctl status docker  # test: should be ‘active’
 ```
 And add your user to docker group (to avoid `sudo` before using `docker` command in future):
 ```
@@ -406,15 +405,9 @@ and logout and login again.
 Because *node.js* is big memory consumer you need 1-2GB RAM or virtual memory to build docker image
 (it was successfully tested on machine with 512MB RAM + 2GB virtual memory - building process take 7min)
 
-Go to main project folder. To build big (~280MB) image which has cached data and is able to **FAST** rebuild  
-(this is good for testing or staging environment) type:
+Go to main project folder. To build image type:
 
 `docker build -t angular-starter .`
-
-To build **SMALL** (~20MB) image without cache (so each rebuild will take the same amount of time as first build)
-(this is good for production environment) type:
-
-`docker build --squash="true" -t angular-starter .`
 
 The **angular-starter** name used in above commands is only example image name.
 To remove intermediate images created by docker on build process, type:
@@ -433,18 +426,16 @@ And that's all, you can open browser and go to [localhost:8080](localhost:8080).
 
 To create and run docker image on [localhost:8080](localhost:8080) as part of large project you may use **docker-compose**. Type 
 
-`docker-compose up &`
+`docker-compose up`
 
 And that's all, you can open browser and go to [localhost:8080](localhost:8080).
 
 
 ### Run image on sub-domain
 
-If you want to run image as virtual-host on sub-domain you must setup [proxy](https://github.com/jwilder/nginx-proxy)
-. You should install proxy and set sub-domain in this way:
+If you want to run image as virtual-host on sub-domain you must setup [proxy](https://github.com/jwilder/nginx-proxy). You should install proxy and set sub-domain in this way:
 
  ```
- docker pull jwilder/nginx-proxy:alpine
  docker run -d -p 80:80 --name nginx-proxy -v /var/run/docker.sock:/tmp/docker.sock:ro jwilder/nginx-proxy:alpine
  ```
 
@@ -475,6 +466,38 @@ starter kit in production on [Netlify](https://www.netlify.com/):
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AngularClass/angular-starter)
 
+### Optional Integration with SonarQube (for continous code quality)
+Assuming you have SonarQube 5.5.6 (LTS) installed
+* Setup SonarQube with the [Sonar Typescript plugin](https://github.com/Pablissimo/SonarTsPlugin#installation) and the Generic Test Coverage plugin https://docs.sonarqube.org/display/PLUG/Generic+Test+Coverage
+* Install sonar-scanner globally 
+```bash
+npm install --global sonar-scanner
+```
+* Install the [Karma plugin for sonarqube](https://www.npmjs.com/package/karma-sonarqube-unit-reporter) as a dev dependency 
+```bash
+npm install karma-sonarqube-unit-reporter --save-dev
+```
+* Sonar Host URL configuration:
+Update [`sonar-project.properties`](sonar-project.properties) file for the property `sonar.host.url` to point to your SonarQube server. By default this assumes that the SonarQube server is running locally using the default port
+```
+sonar.host.url=<Sonar Host URL and Port>
+```
+* Run the unit tests with sonar reporter enabled
+```bash
+npm run test:sonar
+```
+* The test results collected in the results folder in the sonar compatible format
+* Push results to SonarCube
+```bash
+sonar-scanner
+``` 
+* If working with SonarQube 6.x it supports [Generic Test Data](https://docs.sonarqube.org/display/SONAR/Generic+Test+Data)
+* Modify the [karma.conf.js](config/karma.config.js) to set the appropriate version of the sonarQube
+```es6
+sonarQubeUnitReporter: {
+  sonarQubeVersion: '6.x',
+}
+```
 ___
 
 enjoy — [**PatrickJS**](https://twitter.com/gdi2290)
